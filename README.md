@@ -1,11 +1,11 @@
-💰 Flutter Expense Tracker App
+# 💰 Flutter Expense Tracker App
 
 A simple and responsive Flutter application that helps users track, visualize, and manage expenses easily.
 Users can add and remove expenses which are dynamically displayed in a chart and a list view.
 
 ---
 
-✨ Features
+## ✨ Features
 
   .Responsive UI
    Works smoothly in both portrait and landscape modes for mobile devices.
@@ -22,7 +22,7 @@ Users can add and remove expenses which are dynamically displayed in a chart and
 
 ---
 
-🖼️ App Flow
+## 🖼️ App Flow
 
 Main Screen → Displays chart + list of expenses
 Add Expense → Tap the “+” button to open a bottom sheet and enter expense details
@@ -32,29 +32,30 @@ Remove Expense → Swipe the expense card to remove the expense
 
 ---
 
-📂 Project Structure
-lib/
-│
-├── model/
-│   └── expense.dart               # Expense data model
-│
-├── widget/
-│   ├── chart/
-│   │   ├── chart.dart             # Main chart widget
-│   │   └── chart_bar.dart         # Bar widget for each day’s expense
-│   │
-│   ├── expense-list/
-│   │   ├── expenses_list.dart     # Widget to display list of expenses
-│   │   └── expense_item.dart      # Individual expense item widget
-│   │
-│   ├── new_expense.dart           # Modal for adding new expenses
-│   └── expenses.dart              # Combines chart and list into main screen
-│
-└── main.dart                      # App entry point
+## 📂 Project Structure
+    ```bash
+    lib/
+    │
+    ├── model/
+    │   └── expense.dart               # Expense data model
+    │
+    ├── widget/
+    │   ├── chart/
+    │   │   ├── chart.dart             # Main chart widget
+    │   │   └── chart_bar.dart         # Bar widget for each day’s expense
+    │   │
+    │   ├── expense-list/
+    │   │   ├── expenses_list.dart     # Widget to display list of expenses
+    │   │   └── expense_item.dart      # Individual expense item widget
+    │   │
+    │   ├── new_expense.dart           # Modal for adding new expenses
+    │   └── expenses.dart              # Combines chart and list into main screen
+    │
+    └── main.dart                      # App entry point
 
 ---
 
-🚀 Getting Started
+## 🚀 Getting Started
 Prerequisites
 
 Flutter SDK
@@ -64,15 +65,17 @@ Android Studio or VS Code with Flutter & Dart plugins
 
 ---
 
-Installation & Run
-# Clone this repository
-git clone https://github.com/your-username/flutter-expense-tracker.git
+## Installation & Run
+    
+    ```bash
+    # Clone this repository
+    git clone https://github.com/your-username/flutter-expense-tracker.git
 
-# Navigate to the project folder
-cd flutter-expense-tracker
+    # Navigate to the project folder
+    cd flutter-expense-tracker
 
-# Get dependencies
-flutter pub get
+    # Get dependencies
+    flutter pub get
 
-# Run the app
-flutter run
+    # Run the app
+    flutter run
