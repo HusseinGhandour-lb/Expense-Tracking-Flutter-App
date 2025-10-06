@@ -33,7 +33,7 @@ Remove Expense → Swipe the expense card to remove the expense
 ---
 
 ## 📂 Project Structure
-    ```
+    
     lib/
     │
     ├── model/
@@ -67,7 +67,7 @@ Android Studio or VS Code with Flutter & Dart plugins
 
 ## Installation & Run
     
-    ```
+    
     # Clone this repository
     git clone https://github.com/HusseinGhandour-lb/flutter-expense-tracker.git
 
@@ -86,12 +86,16 @@ Android Studio or VS Code with Flutter & Dart plugins
 
 <br>
 <br>
+<p>Main Page with some added Expenses</p>
 <img width="444" height="943" alt="Image" src="https://github.com/user-attachments/assets/d2467d0a-667d-4d3a-a5af-6eade6f95034" />
 <br>
+<p>Dark mode main page with a removed Expense</p>
 <img width="441" height="942" alt="Image" src="https://github.com/user-attachments/assets/eb950c4c-b2ae-49fe-8ba5-834ef32a9531" />
 <br>
+<p>Adding Expense page and input fields</p>
 <img width="455" height="954" alt="Image" src="https://github.com/user-attachments/assets/7b3c8226-09c0-4253-aff7-139dabad982d" />
 <br>
+<p>Handling missing information error</p>
 <img width="458" height="956" alt="Image" src="https://github.com/user-attachments/assets/91ba6a0b-7486-4221-a539-608427f35f35" />
 
 
